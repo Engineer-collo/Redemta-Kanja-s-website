@@ -1,6 +1,12 @@
+
+import Navbar from "../components/Navbar";
+
 const About = () => {
     return(
         <>
+        
+        <Navbar/>
+
               <div
         className="bg-[url('/aboutpage.png')] bg-cover bg-center min-h-screen flex items-center justify-center text-white"
       >
@@ -9,6 +15,7 @@ const About = () => {
 
         </div>
       </div>
+      
 
         </>
     )

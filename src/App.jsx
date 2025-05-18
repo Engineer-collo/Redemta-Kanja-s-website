@@ -3,14 +3,12 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 import LandingPage from "./pages/Landingpage";
 
 
 function App() {
   return (
     <Router>
-      <Navbar/>
       <Routes>
         <Route path="/" element={<LandingPage/>} />
         <Route path="/home" element={<Home/>} />

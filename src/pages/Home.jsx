@@ -1,5 +1,10 @@
+import Navbar from "../components/Navbar";
+
+
 const Home = () => {
     return (
+      <>
+      <Navbar/>
       <div
         className="bg-[url('/homepage.png')] bg-cover bg-center min-h-screen flex items-center justify-center text-white"
       >
@@ -8,6 +13,7 @@ const Home = () => {
           <p className="text-lg">Built with ❤️ by Engineer Collins</p>
         </div>
       </div>
+      </>
     );
   };
   
