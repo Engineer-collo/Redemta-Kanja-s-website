@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <header className=" mt-2 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-3xl font-bold text-gray-800"><Link to="/" className="hover:text-blue-500 text-gray-700 transition"><span className='text-blue-500'>logo</span></Link>
+        <h1 className="text-3xl font-bold text-gray-800"><Link to="/home" className="hover:text-blue-500 text-gray-700 transition"><span className='text-blue-500'>logo</span></Link>
         </h1>
 
         {/* Desktop nav */}
