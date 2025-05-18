@@ -1,6 +1,10 @@
+import Navbar from "../components/Navbar";
+
+
 const Contact = () => {
     return(
         <>
+        <Navbar/>
               <div
         className="bg-[url('/contactpage.png')] bg-cover bg-center min-h-screen flex items-center justify-center text-white"
       >
